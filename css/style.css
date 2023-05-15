@@ -10,6 +10,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-color);
+  background-color: var(--white-background-color);
 }
 
 .link {
@@ -238,7 +239,7 @@ ul {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  background-color: #F5F4FA;
+  background-color: rgba(245, 244, 250, 1);
   border-radius: 4px;
 }
 
