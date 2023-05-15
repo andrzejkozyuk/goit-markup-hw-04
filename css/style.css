@@ -338,7 +338,7 @@ ul {
 
 .sm-link:hover,
 .sm-link:focus {
-  background-color: var(--hover-color);
+  background: var(--hover-color);
   border-radius: 50%;
   color: var(--white-background-color);
 }
