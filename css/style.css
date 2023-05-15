@@ -149,15 +149,17 @@ ul {
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
-   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url(../images/meeting.jpg);
-    max-width: 1600px;
-    height: 600px;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+  max-width: 1600px;
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
- 
 .section-title {
   margin-left: auto;
   margin-right: auto;
@@ -238,7 +240,7 @@ ul {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
 }
 
@@ -313,7 +315,7 @@ ul {
   color: var(--secondary-color);
 }
 
-.sm-list{
+.sm-list {
   display: flex;
   list-style-type: none;
   height: 44px;
@@ -324,9 +326,14 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-   width: 44px;
+  width: 44px;
   height: 44px;
-  color:#afb1b8;
+  color: #afb1b8;
+}
+
+.sm-icon {
+display: flex;
+fill: #AFB1B8;
 }
 
 .footer-contacts {
@@ -466,4 +473,3 @@ ul {
 .smartphone:focus {
   fill: var(--hover-color);
 }
-
