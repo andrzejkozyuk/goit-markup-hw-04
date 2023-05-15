@@ -336,6 +336,13 @@ display: flex;
 fill: #AFB1B8;
 }
 
+.sm-link:hover,
+.sm-link:focus {
+  background-color: var(--hover-color);
+  border-radius: 50%;
+  color: var(--white-background-color);
+}
+
 .footer-contacts {
   background-color: var(--secondary-backgroud-color);
   padding-top: 60px;
