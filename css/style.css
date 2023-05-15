@@ -417,3 +417,8 @@ ul {
 .second-logo {
   color: #ffffff;
 }
+
+.contact-icon {
+  fill: var(--text-color);
+  margin-right: 10px;
+}
