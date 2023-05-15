@@ -422,8 +422,8 @@ ul {
   fill: var(--secondary-color);
   margin-right: 10px;
 }
-.link-contact:hover svg {
+.navbar-contacts:hover svg {
   fill: var(--hover-color);
 }
-.link-contact:focus svg {
+.navbar-contacts:focus svg {
   fill: var(--hover-color);
