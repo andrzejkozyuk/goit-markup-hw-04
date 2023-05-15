@@ -426,4 +426,4 @@ ul {
   fill: var(--hover-color);
 }
 .navbar-contacts:focus svg {
-  fill: var(--hover-color);
+  fill: var(--hover-color);}
