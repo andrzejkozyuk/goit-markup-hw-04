@@ -154,7 +154,9 @@ ul {
     
     height: 600px;
     background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
+
 
  
 .section-title {
