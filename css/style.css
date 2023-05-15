@@ -149,7 +149,13 @@ ul {
   padding-bottom: 200px;
   
 }
-
+.top-section {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/meeting.jpg);
+    
+    height: 600px;
+    background-position: center;
+}
 .section-title {
   margin-left: auto;
   margin-right: auto;
