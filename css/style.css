@@ -418,12 +418,9 @@ ul {
   color: #ffffff;
 }
 
-.contact-icon {
+.envelope,
+.smartphone {
   fill: var(--secondary-color);
   margin-right: 10px;
 }
-.navbar-contacts .link:hover svg {
-  fill: var(--hover-color);
-}
-.navbar-contacts .link:focus svg {
-  fill: var(--hover-color);}
+
