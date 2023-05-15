@@ -333,7 +333,7 @@ ul {
 
 .sm-icon {
   display: flex;
-  fill: #afb1b8;
+  fill: var(--white-background-color);
 }
 
 .sm-link:hover,
