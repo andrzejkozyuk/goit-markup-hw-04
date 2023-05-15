@@ -424,3 +424,10 @@ ul {
   margin-right: 10px;
 }
 
+.envelope:hover,
+.smartphone:hover,
+.envelope:focus,
+.smartphone:focus {
+  fill: var(--hover-color);
+}
+
