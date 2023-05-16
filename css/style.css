@@ -412,9 +412,7 @@ color: var(--main-color);
   background-color: var(--secondary-backgroud-color);
   padding-top: 60px;
   padding-bottom: 60px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+
 }
 
 
@@ -438,7 +436,6 @@ color: var(--main-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  width: 231px;
 }
 .address-line {
   margin-bottom: 9px;
@@ -448,17 +445,23 @@ color: var(--main-color);
 }
 
 .address-line .link {
+  
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--white-background-color);
 }
 
+
 .mail-link .link {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address-line .link:hover {
+  color: var(--hover-color);
 }
 
 .tel-number .link {
@@ -486,9 +489,6 @@ margin-right: 70px;
 }
 
 
-.sm-container {
-
-}
 
 .sm-header {
   font-weight: 700;
@@ -500,7 +500,7 @@ margin-bottom: 20px;
 color: var(--white-background-color);
 }
 
-.footer-sm {
+.footer-sm-list {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -520,21 +520,30 @@ color: var(--white-background-color);
    width: 100%;
     height: 100%;
     border-radius: 50%;
-    color: var(--white-background-color);
+   /* color: var(--white-background-color);*/
 }
 
 .footer-sm-item:not(:last-child) {
 margin-right: 10px;
 }
- .footer-sm-link {
-  color:currentColor
+ .footer-sm-icon {
+  fill:currentColor;
+  
  }
 
- .footer-sm-link:hover,
- .footer-sm-link:focus {
-  color: var(--hover-color);
- }
+.client-link:hover,
+.client-link:focus {
+    border: 1px solid var(--hover-color);
+    color: var(--hover-color);
 
+}
+
+.footer-sm-link:hover,
+.footer-sm-link:focus  {
+    color: var(--hover-color);
+  }
+
+  
 .button-nav {
   display: flex;
   justify-content: center;
