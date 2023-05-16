@@ -447,7 +447,7 @@ color: var(--main-color);
   margin-bottom: 9px;
 }
 
-.address-line {
+.address-line .link {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
