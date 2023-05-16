@@ -331,10 +331,10 @@ ul {
   color: #afb1b8;
 }
 
-.sm-icon {
+/*.sm-icon {
   display: flex;
   fill: currentColor;
-}
+}*/
 
 .sm-link:hover,
 .sm-link:focus {
