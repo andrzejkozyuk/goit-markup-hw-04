@@ -475,6 +475,21 @@ color: var(--main-color);
   color: var(--hover-color);
 }
 
+.footer-wrapper {
+display: flex;
+justify-content: start;
+align-items: baseline;
+
+}
+.address-wrapper {
+margin-right: 70px;
+}
+
+
+.sm-container {
+
+}
+
 .sm-header {
   font-weight: 700;
 font-size: 14px;
@@ -487,7 +502,7 @@ color: var(--white-background-color);
 
 .footer-sm {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 
