@@ -317,6 +317,41 @@ ul {
 
 .sm-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sm-item {
+   width: 44px;
+    height: 44px;
+}
+
+.sm-item:not(:last-child){
+  margin-right: 10px;
+}
+
+.sm-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--white-background-color);
+  color: #AFB1B8;
+}
+
+.sm-link:hover,
+.sm-link:focus {
+background-color: var(--hover-color);
+color: var(--main-color);
+}
+.sm-icon {
+  fill: currentColor;
+}
+
+
+/*.sm-list {
+  display: flex;
   list-style-type: none;
   height: 44px;
   align-items: center;
@@ -344,7 +379,7 @@ ul {
 
 .sm-list li:not(:last-child) {
   margin-right: 10px;
-}
+}*/
 .footer-contacts {
   background-color: var(--secondary-backgroud-color);
   padding-top: 60px;
