@@ -486,7 +486,7 @@ color: var(--white-background-color);
 
 .footer-sm {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -518,7 +518,7 @@ margin-right: 10px;
  .footer-sm-link:focus {
   color: var(--hover-color);
  }
- 
+
 .button-nav {
   display: flex;
   justify-content: center;
