@@ -525,7 +525,7 @@ ul {
 }
 
 .footer-sm-link:hover,
-.footer-sm-link:focus{
+.footer-sm-link:focus {
   background-color: var(--hover-color);
 }
 
