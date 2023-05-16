@@ -344,12 +344,14 @@ ul {
 .sm-link:hover,
 .sm-link:focus {
   background-color: var(--hover-color);
-  color: var(--background-color);
+  color: var(--white-background-color);
 }
-.sm-link:hover .sm-icon,
+/*.sm-link:hover .sm-icon,
 .sm-link:focus .sm-icon {
-  fill: currentColor;
-}
+    fill: currentColor;
+
+}*/
+
 .sm-icon {
   fill: currentColor;
 }
