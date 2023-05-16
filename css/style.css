@@ -331,10 +331,9 @@ ul {
   color: var(--white-background-color);
 }
 
-/*.sm-icon {
-  display: flex;
+.sm-icon {
   fill: currentColor;
-}*/
+}
 
 .sm-link:hover,
 .sm-link:focus {
