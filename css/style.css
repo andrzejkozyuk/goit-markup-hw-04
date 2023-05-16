@@ -438,6 +438,7 @@ color: var(--main-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  width: 231px;
 }
 .address-line {
   margin-bottom: 9px;
